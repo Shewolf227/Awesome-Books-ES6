@@ -18,11 +18,15 @@ This is an Awesome books project using the best practices of ES6
 ## Live Demo
 [Here](https://SoniaKarungi.github.io/Awesome-Books-ES6/) you can find the live Demo of the website
 
-### Install
-Download the zip file.
-extract the folder.
-go to the index.html file .
+## Getting Started
 
+To get a local copy up and running follow these simple example steps.
+
+- Clone this repository to your local machine
+- git clone https://github.com/SoniaKarungi/Awesome-Books-ES6
+- In your terminal, make sure the active directory is `Awesome-Books-ES6`
+- Run the command `npm i` via your terminal
+- Open `index.html` file in a browser of your choice
 
 ### Prerequisites
 
