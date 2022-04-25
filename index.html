@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Books</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <h2 class="logo">Awesome Books</h2>
+    <ul class="navbar">
+      <li class="nav-item"><a class="nav-link" href="#book-list">List</a></li>
+      <li class="nav-item"><a class="nav-link" href="#add-new-book">Add new</a>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <div id="current-date"></div>
+  <section id="book-list">
+    <h1 class="heading">All Awesome Books</h1>
+    <div id="book-container">
+
+    </div>
+  </section>
+
+  <section id="add-new-book">
+    <h1 class="heading">Add new books</h1>
+    <form>
+      <ul class="book-form-fields">
+        <li><input type="text" id="title" name="book-title" placeholder="Title" required>
+        </li>
+        <li>
+          <input type="text" id="author" name="book-author" placeholder="Author">
+        </li>
+      </ul>
+      <span class="error">Please enter all require fields.</span>
+      <button id="btn-add" type="button">Add new book</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h1 class="heading">Contact Information</h1>
+    <p class="info">
+      Do you have any questions or you just want to say 'Hello'?
+    </p>
+    <ul class="specific-info">
+      <li class="this-info">Our e-mail: awesomebooks@awesomebooks.com</li>
+      <li class="this-info">Our phone number: 09876542657</li>
+      <li class="this-info">Our address: Awesome Street, 22 North, Awesome City, Earth</li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <h2>Copyright © 2022 - Awesome Books</h2>
+  </footer>
+  <script type="module" src="index.js"> </script>
+</body>
+
+</html>
