@@ -1,4 +1,3 @@
-
 export default class Book {
   constructor(title, author, id) {
     this.id = id;
